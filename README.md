@@ -7,26 +7,20 @@ The project is organized as follows:
   - `policy_pool`: The directly of the policy pool that store the historical version of the agent model.
 
 - `data/`
-  - Stores various data files required for the project, such as game states and configuration files.
-  - Subfolders include:
-    - `Gym Retro Integration UI/`The interactive emulator UI provided by Gym Retro. 
-    - `environment.yml`: Anaconda environment configuration file, used for setting up project dependencies.
-    - `copy_all_of_these`: As its name. Usage will be described in "Environment setup".
+  - `Gym Retro Integration UI/`The interactive emulator UI provided by Gym Retro. 
+  - `environment.yml`: Anaconda environment configuration file, used for setting up project dependencies.
+  - `copy_all_of_these`: As its name. Usage will be described in "Environment setup".
 
 - `src/`
-  - Contains source code for the project.
-  - Subfolders include:
-    - `environments/`: Custom environments for training the agent.
-    - `models/`: Neural network models used for the agent.
-    - `self_play`: Self-play training features, including SelfPlay class, Environment and Agent Manager, and policy pool management methods.
-    - `play_game/`: Scripts related to playing the game.
-    - `utils/`: Utility functions and helper scripts.
-    - `old_codes/`: Old version codes, won't be used and will be removed in the future.
+  - `environments/`: Custom environments for training the agent.
+  - `models/`: Neural networks for the agent.
+  - `self_play`: Self-play training features, including SelfPlay class, Environment and Agent Manager, and policy pool management methods.
+  - `play_game/`: Scripts related to playing the game.
+  - `utils/`: Utility functions and helper scripts.
   - Additional Python scripts include:
     - `play.py`: Script to play the game.
     - `train.py`: Main script for training the agent.
-    - `unit_test.py`: Script for unit-testing the code implementation.
-
+    
 - `configs/`: The configuration files for experiments. If you want to customize a new experiment, add a new configuration file here.
 
 - `LICENSE`
@@ -39,7 +33,7 @@ The project is organized as follows:
 
 ### Hardware Requirements
 
-The project can be run on either Windows or Linux. While a high-end machine is not strictly necessary, however, since reinforcement learning environment simulations are CPU-dependent, high performance CPU is more perferable than other deep learning tasks. Addtionally, the more VRAM, the more sub-process environments you can run. 
+The project can be run on either Windows or Linux. While a high-end machine is not strictly necessary, since reinforcement learning environment simulations are CPU-dependent, high performance CPU is more perferable than other deep learning tasks. Addtionally, the more VRAM, the more sub-process environments you can run. 
 
 ### Environment Installation
 #### Recommended
@@ -60,7 +54,7 @@ We use Anaconda to manage the project's environment. To set up the environment, 
 After the installation, to activate the conda environment, run the command `conda activate sfai` (or `conda activate <env_name>` if you changed the name in step 1).
 
 
-### Singularity & Docker Container Deployment (Future)
+#### Singularity & Docker Container Deployment (Future)
 
 In the future, we will provide a Singularity or Docker container to simplify deployment. For now, please proceed with the manual installation process described above.
 
