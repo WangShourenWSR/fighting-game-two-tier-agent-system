@@ -3,7 +3,7 @@
 ## Project Structure
 The project is organized as follows:
 
-- `agent_models/`
+- `agent_models/` 
   - `policy_pool`: The directly of the policy pool that store the historical version of the agent model.
 
 - `data/`
@@ -39,7 +39,7 @@ The project is organized as follows:
 
 ### Hardware Requirements
 
-The project can be run on either Windows or Linux. While a high-end machine is not strictly necessary, having an NVIDIA GPU is highly recommended, as optimizing neural networks without one can be very slow and make debugging more difficult. Additionally, a high-performance CPU is preferable, since reinforcement learning environment simulations are CPU-dependent.
+The project can be run on either Windows or Linux. While a high-end machine is not strictly necessary, however, since reinforcement learning environment simulations are CPU-dependent, high performance CPU is more perferable than other deep learning tasks. Addtionally, the more VRAM, the more sub-process environments you can run. 
 
 ### Environment Installation
 #### Recommended
@@ -59,9 +59,6 @@ We use Anaconda to manage the project's environment. To set up the environment, 
 
 After the installation, to activate the conda environment, run the command `conda activate sfai` (or `conda activate <env_name>` if you changed the name in step 1).
 
-#### Alternative
-If the previous installation doesn't work, please go the teh directory `<your_github_folder_path>/SFAI/old_codes/dependency_old/`. Try the installation method in `dependencies_installation_old_version.txt`.
-
 
 ### Singularity & Docker Container Deployment (Future)
 
@@ -76,4 +73,4 @@ In the future, we will provide a Singularity or Docker container to simplify dep
 ### Train The Agent Via Self-Play
 1. Go to the root directory of this project.
 2. Run this command for training an agent via self-play:
-`python src/train_self_play.py --task_name sp_default_projectile_reward --with_aux_obj True --features_extractor_class CustomResNet18 --multi_input_policy False --sticky_action_mode False --stickiness 0.0 --default_a2c False --log2file False --network_graph_tensorboard False`
+`python src/train.py --config <path_to_your_configuration_file>.py`
