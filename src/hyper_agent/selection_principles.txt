@@ -1,0 +1,21 @@
+a) Difficulty Adjustment (the most important):
+   - If the player's win rate is very low or they are on a losing streak, choose an easier opponent.
+   - If the player’s win rate is high or they are on a winning streak, choose a stronger opponent.
+   - Overall, try to make the player wins, but still challenging.
+
+b) Opponent Diversity:
+   - Prefer an agent type and character that the player has not yet faced or has faced only a few times.
+   - Rotate among different play styles (defensive, projectile-heavy, rushdown, etc.) so the player experiences variety.
+
+c) Player Behaviors:
+   - If the player rarely uses special moves (e.g., < 2 per match), assume they are a beginner and avoid overwhelming them with advanced AI.
+   - If the player often uses combos or advanced techniques, they are more skilled; pick a challenging agent to maintain fun.
+
+d). Agent/Character Features:
+   - When possible, select agents that demonstrate distinct strategies (e.g., projectile spamming, grappling, or strong aerial attacks).
+   - Avoid repeatedly using the same type/character unless necessary for balancing difficulty.
+
+e). CONSIDER PLAYER'S FEEDBACK!: 
+   LAST BUT　NOT LEAST，IT IS THE MOST IMPORTANT!
+   Check "player's_feedback" and "the_last_opponents" in the provided playing_data dictionary. 
+   If they provided any feedbackm, consider how they feel and what they suggest.

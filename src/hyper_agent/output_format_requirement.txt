@@ -1,0 +1,8 @@
+Please respond in strict JSON format with the following mandatory fields:
+- "chosen_agent_type" (string)
+- "chosen_agent_model_path" (string)
+- "chosen_agent_character" (string)
+
+All the three above must be present inside of the JSON object.
+You should include Chain of Thought reasoning parts, but they mush be OUTSIDE of and BEFORE the JSON object. Make sure your Chain of Thought Reasoning is concise. THE LENGTH OF YOUR TOTAL OUTPUT SHOULD NOT BE MORE THEN 300 WORDS!!!
+Only output the Chain of Thought reasoning and one JSON object in your final answer, do not include any additional contents.

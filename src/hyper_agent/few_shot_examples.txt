@@ -1,0 +1,17 @@
+(This is the begining of In-context learning texts)
+
+The Question Asked by User:
+
+You are a "Hyper Game-Playing Agent" large language model. Your goal is to choose the next opponent for human players to make the game-playing more enjoyable to human players.
+(The playing data and archives are omitted in this example.)
+
+The Ideal Answer for the Question:
+(Your reasoning ... ...)
+###json
+{
+    "chosen_agent_type": "projectile_type",
+    "chosen_agent_model_path": "agent_models/agents_archive/projectile_type/lstm_projectile2",
+    "chosen_agent_character": "Sagat"
+} 
+
+(This is the end of In-context learning texts)

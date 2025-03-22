@@ -1,0 +1,69 @@
+{
+  "projectile_type": {
+    "suggested_characters_for_this_type": ["Ryu", "Ken", "Sagat", "Dhalsim"],
+    "agent_models": [
+      {
+        "model_path": "agent_models/agents_archive/projectile_type/2_0.2",
+        "model_difficulty_score": "6/10-(Medium)"
+      }
+    ]
+  },
+  "special_move_type": {
+    "suggested_characters_for_this_type": ["Ryu", "Ken", "Sagat", "Dhalsim"],
+    "agent_models": [
+      {
+        "model_path": "agent_models/agents_archive/special_move_type/1_0.25",
+        "model_difficulty_score": "9/10-(Hard)"
+      }
+    ]
+  },
+  "newbie_type": {
+    "suggested_characters_for_this_type": ["Ryu", "Ken", "Dhalsim", "EHonda", "Chunli", "Blanka", "Guile", "Zangief", "Balrog", "Vega", "Sagat", "Bison"],
+    "agent_models": [
+      {
+        "model_path": "agent_models/agents_archive/newbie_type/1_0.017",
+        "model_difficulty_score": "0/10-(Very Easy)"
+      }
+    ]
+  },
+  "defensive_type": {
+    "suggested_characters_for_this_type": ["Vega", "Ryu", "Ken", "Dhalsim", "Sagat"],
+    "agent_models": [
+      {
+        "model_path": "agent_models/agents_archive/defensive_type/1_0.23",
+        "model_difficulty_score": "8/10-(Hard)"
+      }
+    ]
+  },
+  "aggressive_type": {
+    "suggested_characters_for_this_type": ["Ryu", "Ken",  "EHonda", "Zangief", "Balrog", "Sagat", "Bison"],
+    "agent_models": [
+      {
+        "model_path": "agent_models/agents_archive/aggressive_type/1_0.22",
+        "model_difficulty_score": "8/10-(Hard)"
+      }
+    ]
+  },
+  "air_type": {
+    "suggested_characters_for_this_type": ["Ryu", "Ken", "Dhalsim", "Chunli"],
+    "agent_models": [
+      {
+        "model_path": "agent_models/agents_archive/air_type/1_0.08",
+        "model_difficulty_score": "3/10-(Easy)"
+      }
+    ]
+  },
+  "coward_type": {
+    "suggested_characters_for_this_type": ["Ryu", "Ken", "EHonda", "Chunli", "Blanka", "Guile", "Zangief", "Balrog", "Vega", "Bison"],
+    "agent_models": [
+      {
+        "model_path": "agent_models/agents_archive/coward_type/1_0.02",
+        "model_difficulty_score": "1/10-(Very Easy)"
+      }
+    ]
+  },
+  "key_spamming_type": {
+    "suggested_characters_for_this_type": "Unfortunatelly, there are no agents for this type, PLEASE DON'T CHOOSE THIS TYPE",
+    "agent_models": "Unfortunatelly, there are no agents for this type, PLEASE DON'T CHOOSE THIS TYPE"
+  }
+}
