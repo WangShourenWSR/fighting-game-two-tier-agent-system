@@ -86,7 +86,6 @@ class SelfPlay:
         self,
         task_name: str = None,
         config: ModuleType = None,
-        enable_resume_training = True,
     ):
         '''
         Initialize the self-play trainer.
@@ -535,9 +534,6 @@ class SelfPlay:
                     learning_rate = lr_schedule,
                     clip_range = clip_range_schedule,
                     tensorboard_log = self.log_dir,
-                    num_classifier_aux_objs = self.agent_num_classifier_aux_heads,
-                    num_regressor_aux_objs = self.agent_num_regressor_aux_heads,
-                    custom_generate_aux_targets = generate_aux_targets
                 )
             elif self.agent_model_class == "MultiInputPPO" or "PPO":
                 agent = cls(

@@ -37,7 +37,7 @@ GAME_STATES_PVE = [
         "PvE.SagatVsSagat",
         "Champion.Level9.RyuVsBalrog",
         "Champion.Level10.RyuVsVega",
-        "Champion.Level11.RyuVsSagat"
+        "Champion.Level11.RyuVsSagat",
         "PvE.RyuVsKen",
         "PvE.RyuVsRyu",
     ]

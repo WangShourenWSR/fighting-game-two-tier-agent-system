@@ -19,7 +19,7 @@ def load_config(config_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Select config file using --config")
-    parser.add_argument("--config", type=str, default="baselines/purposed_model+PvE_only.py", help="Path to the config file")
+    parser.add_argument("--config", type=str, default="baselines/purposed_model+hybrid.py", help="Path to the config file")
     args = parser.parse_args()
 
     # load the config file

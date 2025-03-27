@@ -37,7 +37,7 @@ GAME_STATES_PVE = [
         "PvE.SagatVsSagat",
         "Champion.Level9.RyuVsBalrog",
         "Champion.Level10.RyuVsVega",
-        "Champion.Level11.RyuVsSagat"
+        "Champion.Level11.RyuVsSagat",
         "PvE.RyuVsKen",
         "PvE.RyuVsRyu",
     ]
@@ -51,7 +51,7 @@ GAME_STATES_EVAL =[
         "Champion.Level5.RyuVsDhalsim",
         "Champion.Level6.RyuVsRyu",
         "Champion.Level4.RyuVsZangief",
-        "Champion.Level3.RyuVsChunLi",
+        "Champion.Level3.RyuVsChunli",
         "Champion.Level2.RyuVsKen",
         "Champion.Level1.RyuVsGuile",
         "PvE.KenVsHonda",
